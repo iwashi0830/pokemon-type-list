@@ -1,0 +1,152 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+  }
+
+header {
+    height: 56px;
+    background-color: black;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.back {
+    position: absolute;
+    left: 16px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+h1 {
+    /* margin-left: auto; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    margin: 16px;
+}
+
+.type-list-line{
+    display: flex;
+}
+
+.type-list-line + .type-list-line{
+    margin-top: 16px;
+}
+
+.type-btn{
+    background-color:green;
+    color: white;
+    flex:1;
+    height: 80px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(50, 38, 112, 0.3);
+}
+
+.normal{
+    background-color: #B1B1B1;
+}
+
+.fire{
+    background-color: #E36646;
+}
+
+.water{
+    background-color: #51AED6;
+}
+
+.electric{
+    background-color: #FBC12D;
+}
+
+.grass{
+    background-color: #9BC22A;
+}
+
+.ice{
+    background-color: #57C5E6;
+}
+
+.fighting{
+    background-color: #E69A49;
+}
+
+.poison{
+    background-color: #BA7AC1;
+}
+
+.ground{
+    background-color: #C7A64C;
+}
+
+.flyng{
+    background-color: #5FA1DF;
+}
+
+.psychic{
+    background-color: #E588B1;
+}
+
+.bug{
+    background-color: #71BC56;
+}
+
+.rock{
+    background-color: #AE8756;
+}
+
+.ghost{
+    background-color: #746FAF;
+}
+
+.dragon{
+    background-color: #6E83C8;
+}
+
+.dark{
+    background-color: #583D22;
+}
+
+.steel{
+    background-color: #929190;
+}
+
+.fairy{
+    background-color: #E06EBC;
+}
+
+
+
+.type-btn + .type-btn {
+    margin-left: 16px;
+}
+
+.type-name {
+    text-align: center;
+}
+
+* + h2 {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 8px;
+}
+
+.result {
+    display: none;
+}
+
+.wrap-result{
+    position: relative;
+}

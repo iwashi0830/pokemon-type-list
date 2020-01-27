@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ポケモンのタイプ別弱点教えてくれるくん</title>
+    <meta name="description" content="ポケモンのタイプ別弱点一覧">
+    <meta name="keywords" content="ポケモン,タイプ別弱点">
+    <link rel="stylesheet" href="ress.css">
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+ <![endif]-->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="back result">←</div>
+        <h1 id="title">ポケモン弱点表</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="wrap-type-list">
+
+            <div class="type-list-line">
+                <div class="type-btn normal">
+                    <div class="type-name">ノーマル</div>
+                </div>
+                <div class="type-btn fire">
+                    <div class="type-name">ほのお</div>
+                </div>
+                <div class="type-btn water">
+                    <div class="type-name">みず</div>
+                </div>
+            </div>
+
+            <div class="type-list-line">
+                <div class="type-btn electric">
+                    <div class="type-name">でんき</div>
+                </div>
+                <div class="type-btn grass">
+                    <div class="type-name">くさ</div>
+                </div>
+                <div class="type-btn ice">
+                    <div class="type-name">こおり</div>
+                </div>
+            </div>
+
+            <div class="type-list-line">
+                <div class="type-btn fighting">
+                    <div class="type-name">かくとう</div>
+                </div>
+                <div class="type-btn poison">
+                    <div class="type-name">どく</div>
+                </div>
+                <div class="type-btn ground">
+                    <div class="type-name">じめん</div>
+                </div>
+            </div>
+
+            <div class="type-list-line">
+                <div class="type-btn flyng">
+                    <div class="type-name">ひこう</div>
+                </div>
+                <div class="type-btn psychic">
+                    <div class="type-name">エスパー</div>
+                </div>
+                <div class="type-btn bug">
+                    <div class="type-name">むし</div>
+                </div>
+            </div>
+
+            <div class="type-list-line">
+                <div class="type-btn rock">
+                    <div class="type-name">いわ</div>
+                </div>
+                <div class="type-btn ghost">
+                    <div class="type-name">ゴースト</div>
+                </div>
+                <div class="type-btn dragon">
+                    <div class="type-name">ドラゴン</div>
+                </div>
+            </div>
+
+            <div class="type-list-line">
+                <div class="type-btn dark">
+                    <div class="type-name">あく</div>
+                </div>
+                <div class="type-btn steel">
+                    <div class="type-name">はがね</div>
+                </div>
+                <div class="type-btn fairy">
+                    <div class="type-name">フェアリー</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="wrap-result result">
+            <h2>こうかばつぐん</h2>
+            <ul id="weak">
+            </ul>
+            <h2>いまひとつ</h2>
+            <ul id="strong">
+            </ul>
+            <h2>こうかなし</h2>
+            <ul id="invalid">
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
